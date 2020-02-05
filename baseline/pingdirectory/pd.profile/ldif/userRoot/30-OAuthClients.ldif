@@ -511,7 +511,7 @@ pf-oauth-client-enforce-replay-prevention: FALSE
 pf-oauth-client-bypass-approval-page: FALSE
 
 
-dn: pf-oauth-client-id=ac_oic_client,ou=oauthClients,${USER_BASE_DN}
+dn: pf-oauth-client-id=moderno_client,ou=oauthClients,${USER_BASE_DN}
 objectClass: top
 objectClass: pf-oauth-client
 pf-oauth-client-name: OpenID Connect Basic Client Profile
